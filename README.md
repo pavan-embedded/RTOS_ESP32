@@ -2,6 +2,14 @@
 
 FreeRTOS projects on the ESP32-S3, built with ESP-IDF in VS Code. Each folder is a separate, working project, and each one adds new RTOS concepts on real hardware.
 
+## Projects
+
+| Folder | What it shows |
+|---|---|
+| 01-button-led-isr | Button interrupt, queue, tasks, LED blink modes |
+
+## Hardware
+
 Projects are ordered from basics to more advanced: tasks, then ISR and queues, then sensor pipelines.
 
 ## Projects
@@ -60,12 +68,6 @@ I (153814) DHT_RTOS: Temp: 28.6 C  Humidity: 49.0 %
 FreeRTOS projects on the ESP32-S3, built with ESP-IDF in VS Code.
 Each folder is a separate project.
 
-## Projects
 
-| Folder | What it shows |
-|---|---|
-| 03-button-led-isr | Button interrupt, queue, tasks, LED blink modes |
-
-## Hardware
 
 ESP32-S3 board, breadboard, LED with resistor, push button
